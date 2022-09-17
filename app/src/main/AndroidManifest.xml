@@ -31,7 +31,8 @@
             android:name="com.rajeevranjan.searchlocation.MapsActivity"
             android:label="@string/title_activity_maps">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
